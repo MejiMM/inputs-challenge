@@ -1,0 +1,126 @@
+.flex--div {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-left: 10%;
+}
+
+.flex--div label {
+    font-size: 1.4em;
+    color: rgb(44, 43, 43);
+    margin-bottom: 3%;
+}
+
+.flex--div input {
+    border: 2px rgba(128, 128, 128, 0.849) solid;
+    border-radius: 10px;
+    max-width: 90%;
+    min-height: 8vh;
+    font-size: 1.3em;
+}
+
+.flex--div input:hover {
+    border-color: black;
+}
+
+.flex--div input:focus {
+    outline: none;
+    border-color: rgb(13, 13, 214);
+}
+
+.flex--div input::placeholder {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 600;
+    content: "\f007";
+}
+
+.helper--text {
+    color: rgb(95, 93, 93);
+    margin: 0;
+}
+
+/* Estilos para el input error */
+.error label {
+    color: rgb(235, 12, 12);
+}
+
+.error input {
+    border-color: red;
+    font-size: 1.2em;
+}
+
+.error input::placeholder {
+    font-family: "Font Awesome 5 Free";
+    font-size: 1.2em;
+    font-weight: 500;
+    content: "\f007";
+}
+
+.error input:hover {
+    border-color: rgb(26, 25, 25);
+    border-radius: 10px;
+}
+
+.error input:focus {
+    border-radius: 10px;
+    border-color: red;
+    outline: none;
+}
+
+.helper--error {
+    color: red;
+    margin: 0;
+}
+
+/* Estilos de textarea */
+.flex--div textarea {
+    max-width: 90%;
+    resize: none;
+    border: 2px rgba(128, 128, 128, 0.849) solid;
+    border-radius: 10px;
+}
+
+.flex--div textarea:hover {
+    border-radius: 10px;
+    border-color: black;
+}
+
+.flex--div textarea:focus {
+    border-radius: 10px;
+    outline: none;
+    border-color: black;
+}
+
+.flex--div textarea::placeholder {
+    font-family: "Font Awesome 5 Free";
+    font-size: 1.2em;
+    font-weight: 500;
+    content: "\f007";
+}
+
+/* Estilos para los diferentes tamaños */
+
+.sm {
+    width: 50%;
+    min-height: 6vh;
+}
+
+.xl {
+    position: relative;
+    right: 20%;
+    width: 40vw;
+}
+
+.fullWidth {
+    width: 160vh;
+}
+
+/* Estilos opcionales para mostrar */
+
+.flex--div .input--normal:hover, .flex--div .input--normal:focus {
+    border-color: rgba(128, 128, 128, 0.849);
+}
+
+.flex--div .error--normal:hover {
+    border-color: red;
+}

@@ -1,0 +1,39 @@
+.header {
+    background-color: rgba(182, 182, 182, 0.808);
+    max-width: 25vw;
+    min-width: fit-content;
+    height: 250vh;    
+    text-align: center;
+}
+
+.header h3 {
+    margin: 0;
+    padding: 15% 0;
+}
+
+.header--span {
+    color: chocolate;
+}
+
+.navbar {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+    margin-top: 15%;
+    color: rgb(107, 106, 106);
+    font-weight: 600;
+    font-size: 1.2em;
+}
+
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav--item {
+    margin-bottom: 15%;
+}
+
+.nav--item:last-child {
+    color: black;
+}

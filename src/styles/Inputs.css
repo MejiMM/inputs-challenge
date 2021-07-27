@@ -1,0 +1,21 @@
+.main {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.main h2 {
+    margin-left: 7vw;
+    font-size: 2em;    
+}
+
+.grid--section {
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(auto-fill, minmax(20rem, 50%));
+}
+
+.author {
+    position: relative;
+    text-align: center;
+    bottom: -6%;
+}
